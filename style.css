@@ -10,6 +10,8 @@
 
 html{
     background: linear-gradient(to right, #000428, #004e92);
+    background-size: cover;
+    background-position: center;
     box-sizing: border-box;
 }
 
@@ -40,11 +42,11 @@ span{
 }
 
 img{
-    max-width: 500px;
+    max-width: 380px;
     margin: auto;
     display: block;
     height: 400px;
-    width: 500px;
+    width: 400px;
     filter: blur(var(--blur));
     padding: var(--spacing);
     background: var(--base);
